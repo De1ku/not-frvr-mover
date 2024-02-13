@@ -139,12 +139,12 @@ def getToken() -> None:
     defaultHeaders['authorization'] = authToken
     res = requests.get("https://discord.com/api/v9/users/@me", headers=defaultHeaders)
     if res.status_code == 200:
-        slowType("Got it!")
+        slowType("Got it! ")
         res_json = res.json()
         user_data = {'global_name': res_json['global_name'],
                     'user_name': res_json["username"],
                     'user_id': res_json['id']}
-        slowType(f"logging by: {user_data['user_name']}")
+        slowType(f"Logging by: {user_data['user_name']}")
         return True
     else:
         slowType("Invalid token!")
