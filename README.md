@@ -1,5 +1,4 @@
 # It's a funny script to move user across all the voice channels available you for moving
-
 # You must have the `MOVE-MEMBER` privilege to use it.
 
 When using the script, you must authorize to it via a discord token. How to get a Discord token:
