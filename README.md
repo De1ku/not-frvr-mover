@@ -2,3 +2,12 @@
 A funny script to move user across all the voice channels available you for moving
 
 You must have the MOVE-MEMBER privilege to use it.
+
+When using the script, you must authorize to it via a discord token. How to get a Discord token:
+1. Firstly you need to open dev console (CTRL-SHIFT-I in Discord and F12 in other browsers)
+2. Open the Network tab
+![image](https://github.com/De1ku/not-frvr-mover/assets/125497407/b5066cfe-d0fe-4da2-a611-f7c14e9b4191)
+3. Filter the requests by "/api", perform some action (e.g. open a page of some server) and open the request
+4. Find the "authorization" header in the request headers and copy its contents. Done! You have your token, through which you can authorize in the script to your discord account (The token changes when you log out of your account, keep this in mind. The token you have now may be invalid after logging out of the account on any device)
+![image](https://github.com/De1ku/not-frvr-mover/assets/125497407/f780e65d-a23b-43e5-bd64-15275ddd66cc)
+
