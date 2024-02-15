@@ -134,7 +134,7 @@ def parseGuildsIds() -> str:
 
 def getToken() -> None:
     clearConsole()
-    authToken = console.input("Type your authentication token: ", password=True)
+    authToken = console.input("Type your authentication token: ")
     defaultHeaders['authorization'] = authToken
     res = requests.get("https://discord.com/api/v9/users/@me", headers=defaultHeaders)
     if res.status_code == 200:
