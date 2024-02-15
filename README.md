@@ -12,4 +12,4 @@ When using the script, you must authorize to it via a discord token. How to get 
 
 Script uses **"requests"**, **"rich"** and **"inquirer"** modules. To install them, go to the script directory and install the modules from requirements.txt **(pip install -r requirements.txt)**
 
-![image](https://github.com/De1ku/not-frvr-mover/assets/125497407/94666d44-0d89-4439-8677-22e3e9aef760)
+![image](https://github.com/De1ku/not-frvr-mover/assets/125497407/ef289d7f-72b5-4f99-9369-8a82361f6973)
