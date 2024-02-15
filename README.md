@@ -10,6 +10,6 @@ When using the script, you must authorize to it via a discord token. How to get 
 >
 >![image](https://github.com/De1ku/not-frvr-mover/assets/125497407/5ad6feeb-801c-41e1-9d95-2576e0eb079c)
 
-Script uses **"requests"**, **"rich"** and **"inquirer"** modules. To install them, go to the script directory and install the modules from requirements.txt **(pip install requirements.txt)**
+Script uses **"requests"**, **"rich"** and **"inquirer"** modules. To install them, go to the script directory and install the modules from requirements.txt **(pip install -r requirements.txt)**
 
 ![image](https://github.com/De1ku/not-frvr-mover/assets/125497407/94666d44-0d89-4439-8677-22e3e9aef760)
