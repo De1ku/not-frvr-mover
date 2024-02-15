@@ -1,6 +1,5 @@
 import requests
 import time
-from dotenv import load_dotenv
 import json
 from rich.console import Console
 import inquirer
